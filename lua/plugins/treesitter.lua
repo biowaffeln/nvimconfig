@@ -1,4 +1,4 @@
-local function init()
+local function config()
 	require("nvim-treesitter.configs").setup({
 		enable = true,
 		ensure_installed = {
@@ -24,7 +24,7 @@ end
 
 return {
 	"nvim-treesitter/nvim-treesitter",
-	init = init,
+	config = config,
 	dependencies = {
 		"nvim-treesitter/nvim-treesitter-textobjects",
 	},

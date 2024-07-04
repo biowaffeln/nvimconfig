@@ -1,4 +1,4 @@
-local function init()
+local function config()
 	local cmp = require("cmp")
 	local luasnip = require("luasnip")
 	require("luasnip.loaders.from_vscode").lazy_load()
@@ -49,7 +49,7 @@ end
 
 return {
 	"hrsh7th/nvim-cmp",
-	init = init,
+	config = config,
 	dependencies = {
 		"L3MON4D3/LuaSnip",
 		"saadparwaiz1/cmp_luasnip",

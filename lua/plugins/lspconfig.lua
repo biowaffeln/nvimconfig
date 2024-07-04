@@ -1,4 +1,4 @@
-local function init()
+local function config()
 	vim.api.nvim_create_autocmd("LspAttach", {
 		desc = "LSP actions",
 		callback = function(event)
@@ -90,7 +90,7 @@ end
 
 return {
 	"neovim/nvim-lspconfig",
-	init = init,
+	config = config,
 	dependencies = {
 		"williamboman/mason.nvim",
 		"williamboman/mason-lspconfig.nvim",
