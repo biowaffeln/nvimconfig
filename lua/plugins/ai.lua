@@ -9,7 +9,6 @@ return {
 	},
 	{
 		"frankroeder/parrot.nvim",
-		tag = "v0.3.2",
 		keys = {
 			{
 				"<leader>ai",
