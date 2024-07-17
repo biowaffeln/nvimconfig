@@ -9,25 +9,18 @@ return {
 	},
 	{
 		"frankroeder/parrot.nvim",
-		keys = {
-			{
-				"<leader>ai",
-				function()
-					require("parrot").setup({
-						providers = {
-							openai = {
-								api_key = { "op read 'op://dev/OpenAI/credential'" },
-							},
-							anthropic = {
-								api_key = { "op read 'op://dev/Anthropic/credential'" },
-							},
-						},
-					})
-					print("Parrot loaded!")
-				end,
-				desc = "Load Parrot",
-			},
-		},
+		config = function()
+			require("parrot").setup({
+				providers = {
+					openai = {
+						api_key = { "op read 'op://dev/OpenAI/credential'" },
+					},
+					anthropic = {
+						api_key = { "op read 'op://dev/Anthropic/credential'" },
+					},
+				},
+			})
+		end,
 		dependencies = { "ibhagwan/fzf-lua", "nvim-lua/plenary.nvim" },
 	},
 }
