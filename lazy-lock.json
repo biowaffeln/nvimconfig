@@ -9,6 +9,7 @@
   "fzf-lua": { "branch": "main", "commit": "975534f4861e2575396716225c1202572645583d" },
   "gitsigns.nvim": { "branch": "main", "commit": "7178d1a430dcfff8a4c92d78b9e39e0297a779c0" },
   "lazy.nvim": { "branch": "main", "commit": "d1de92dffab5a862332fdd1892889d362369c12f" },
+  "dressing.nvim": { "branch": "master", "commit": "6741f1062d3dc6e4755367a7e9b347b553623f04" },
   "lazygit.nvim": { "branch": "main", "commit": "dc56df433bfbf107fee0139e187eb9750878fa84" },
   "lualine.nvim": { "branch": "master", "commit": "6a40b530539d2209f7dc0492f3681c8c126647ad" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "37a336b653f8594df75c827ed589f1c91d91ff6c" },

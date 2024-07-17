@@ -9,4 +9,5 @@ return {
 	},
 	{ "mg979/vim-visual-multi" },
 	{ "tpope/vim-sleuth" },
+	{ "stevearc/dressing.nvim", opts = {} },
 }
