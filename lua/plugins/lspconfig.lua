@@ -69,6 +69,7 @@ local function config()
 		svelte = {},
 		emmet_ls = {},
 		pyright = {},
+		zls = {},
 	}
 
 	require("mason-lspconfig").setup({
