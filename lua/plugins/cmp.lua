@@ -42,7 +42,7 @@ local function config()
 		sources = {
 			{ name = "nvim_lsp" },
 			{ name = "luasnip" },
-			{ name = "codeium" },
+			{ name = "supermaven" },
 		},
 	})
 end

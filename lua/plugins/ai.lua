@@ -1,11 +1,9 @@
 return {
 	{
-		"Exafunction/codeium.nvim",
-		dependencies = {
-			"nvim-lua/plenary.nvim",
-			"hrsh7th/nvim-cmp",
+		"supermaven-inc/supermaven-nvim",
+		opts = {
+			disable_inline_completion = true,
 		},
-		opts = {},
 	},
 	{
 		"frankroeder/parrot.nvim",
