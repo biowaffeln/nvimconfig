@@ -20,6 +20,7 @@ local function config()
 		auto_install = true,
 		sync_install = false,
 		ignore_install = {},
+		additional_vim_regex_highlighting = false,
 	})
 end
 
