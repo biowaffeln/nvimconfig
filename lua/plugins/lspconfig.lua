@@ -70,6 +70,8 @@ local function config()
 		emmet_ls = {},
 		pyright = {},
 		zls = {},
+		gopls = {},
+		templ = {},
 	}
 
 	require("mason-lspconfig").setup({

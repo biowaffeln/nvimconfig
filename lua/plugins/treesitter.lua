@@ -12,6 +12,7 @@ local function config()
 			"python",
 			"rust",
 			"go",
+			"templ",
 		},
 		highlight = { enable = true },
 		indent = { enable = true },
