@@ -67,7 +67,9 @@ local function config()
 		tailwindcss = {},
 		tsserver = {},
 		svelte = {},
-		emmet_ls = {},
+		emmet_ls = {
+			filetypes = { "css", "html", "javascript", "javascriptreact", "typescriptreact", "svelte", "vue", "templ" },
+		},
 		pyright = {},
 		zls = {},
 		gopls = {},
