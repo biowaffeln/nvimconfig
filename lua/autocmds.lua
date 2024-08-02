@@ -11,7 +11,7 @@ vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
 vim.api.nvim_create_autocmd("LspAttach", {
 	callback = function(event)
 		local client = vim.lsp.get_client_by_id(event.data.client_id)
-		if client.name == "svelte" then
+		if client and client.name == "svelte" then
 			vim.api.nvim_create_autocmd("BufWritePost", {
 				pattern = { "*.js", "*.ts" },
 				callback = function(ctx)
